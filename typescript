@@ -1,0 +1,45 @@
+Script started on 2024-04-03 06:31:25-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="48"]
+]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git add*
+git : 'add*' n'est pas une commande git. Voir 'git --help'.
+
+La commande la plus ressemblante est
+	add
+]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git "add*"
+git : 'add*' n'est pas une commande git. Voir 'git --help'.
+
+La commande la plus ressemblante est
+	add
+]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git add *
+]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git commit -m"Deucie[K[K[Kxième version ajout de a[Kscript"
+[main f7880e8] Deuxième version ajout de script
+ 2 files changed, 1 insertion(+)
+ create mode 100755 script
+ create mode 100644 typescript
+]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git u[Kpush
+Énumération des objets: 5, fait.
+Décompte des objets:  20% (1/5)Décompte des objets:  40% (2/5)Décompte des objets:  60% (3/5)Décompte des objets:  80% (4/5)Décompte des objets: 100% (5/5)Décompte des objets: 100% (5/5), fait.
+Compression par delta en utilisant jusqu'à 2 fils d'exécution
+Compression des objets:  50% (1/2)Compression des objets: 100% (2/2)Compression des objets: 100% (2/2), fait.
+Écriture des objets:  25% (1/4)Écriture des objets:  50% (2/4)Écriture des objets:  75% (3/4)Écriture des objets: 100% (4/4)Écriture des objets: 100% (4/4), 357 octets | 178.00 Kio/s, fait.
+Total 4 (delta 0), réutilisés 0 (delta 0)
+To github.com:YannisGhartouchent/TerminalYG.git
+   7241034..f7880e8  main -> main
+]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git add *[K[K[K[K[K[K[K[K[Kgit brac[Knch
+[?1h=* [32mmain[m[m
+[K[?1l>]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git branch cagnotte
+]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git checkout cagnotte[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbranch
+[?1h=  cagnotte[m[m
+* [32mmain[m[m
+[K[?1l>]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git checkout cagnotte
+Basculement sur la branche 'cagnotte'
+]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git branch
+[?1h=* [32mcagnotte[m[m
+  main[m[m
+[K[?1l>]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ git commit[K[K[K[K[K[K[K[K[K[Kmkdir "cagnotte"
+]0;yannisghartouchent@ubuntu: ~/terminalproject[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject[00m$ cd "cagnotte"
+]0;yannisghartouchent@ubuntu: ~/terminalproject/cagnotte[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject/cagnotte[00m$ echo "[K"cagnotte"[K 1"<[K>[K > Caghnotte[K[K[K[K[K[K[K[K[Kcagotte[K[K[K[Knotte/1_cagnotte
+bash: cagnotte/1_cagnotte: Aucun fichier ou dossier de ce type
+]0;yannisghartouchent@ubuntu: ~/terminalproject/cagnotte[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject/cagnotte[00m$ echo "cagnotte 1" > cagnotte/1_cagnotte[1@1[1@_[C[C[C[C[C[C[C[C[C[C[C[1P[1P
+bash: cagnotte/1_cagnotte: Aucun fichier ou dossier de ce type
+]0;yannisghartouchent@ubuntu: ~/terminalproject/cagnotte[01;32myannisghartouchent@ubuntu[00m:[01;34m~/terminalproject/cagnotte[00m$ cd ..
+]0;yannisghartouchent@u
